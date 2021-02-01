@@ -11,6 +11,10 @@
 //       bottom of the file but a quick check at the numbers does not hurt.
 //
 //Analysis used:
+//       Two source files are compared by calculating a convolution between the two
+//       files. Instead of multiplication between elements, a comparison is made.
+//       The number of semicolons and curly braces are also calculated.
+//
 
 
 //for the unfortunate people using Visual Studio
