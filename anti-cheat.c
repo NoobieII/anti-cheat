@@ -5,10 +5,16 @@
 //
 //Usage: select all code files to be evaluated and run it with this program (i.e.
 //       all code file paths will be put in the program parameters.)
-//
+//       
+//       This program asks for two threshold values such that if a comparison between
+//       two files exceeds it, a flag will be made. The first threshold is the
+//       minimum score for which if the number of semicolons and curly braces match,
+//       a flag is made. The second threshold is the minimum score for which all
+//       comparisons will be flagged.
+//       
 //       This program will output a file called "analysis.txt". Be sure to check it!
-//       Suggested files that are in conflict with each other will be listed at the
-//       bottom of the file but a quick check at the numbers does not hurt.
+//       Suggested files that are in conflict with each other will be listed with a
+//       "[CAUTION]" and should be checked manually.
 //
 //Analysis used:
 //       Two source files are compared by calculating a convolution between the two
